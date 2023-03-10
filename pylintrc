@@ -1,0 +1,32 @@
+[MASTER]
+
+disable=
+	# -- START OF EXAMPLE-SPECIFIC SUPPRESSIONS --
+	unused-argument,
+	unused-variable,
+	# -- END OF EXAMPLE-SPECIFIC SUPPRESSIONS --
+    # missing-docstring,
+    too-many-arguments,
+    too-many-locals,
+    abstract-method,
+    duplicate-code,
+    E1101,
+    protected-access,
+    too-few-public-methods,
+    no-else-return,
+    no-else-break,
+    no-else-raise,
+    # no-self-use,
+    logging-format-interpolation,
+    inconsistent-return-statements,
+    W0511, # TODO comments in the code
+    W0703, # Too much generic exception
+    too-many-nested-blocks,
+    too-many-branches,
+    too-many-lines,
+    no-else-continue,
+    W0124, # Following "as" with another context manager looks like a tuple.
+    C0114,
+max-line-length = 180
+max-statements = 80
+output-format = colorized
