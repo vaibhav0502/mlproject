@@ -8,7 +8,7 @@ from datetime import datetime
 
 logs_path = os.path.join(os.getcwd(), "logs")
 os.makedirs(logs_path, exist_ok=True)
-LOG_FILE_PATH = os.path.join(logs_path,'logger.log')
+LOG_FILE_PATH = os.path.join(logs_path, 'logger.log')
 
 logging.basicConfig(
     filename=LOG_FILE_PATH,
